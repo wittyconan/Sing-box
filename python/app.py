@@ -30,10 +30,10 @@ config = {
     'CFPORT': os.environ.get('CFPORT', '443'),          # 优选域名或优选ip对应端口
     'NAME': os.environ.get('NAME', ''),                 # 节点备注
     'S5_PORT': os.environ.get('S5_PORT', ''),           # socks5端口,支持多端口玩具可填写，否则不动
-    'HY2_PORT': os.environ.get('HY2_PORT', '25876'),         # Hy2 端口，支持多端口玩具可填写，否则不动
+    'HY2_PORT': os.environ.get('HY2_PORT', '25839'),         # Hy2 端口，支持多端口玩具可填写，否则不动
     'TUIC_PORT': os.environ.get('TUIC_PORT', ''),        # Tuic 端口，支持多端口玩具可填写，否则不动 
     'ANYTLS_PORT': os.environ.get('ANYTLS_PORT', ''),    # AnyTLS 端口,支持多端口玩具可填写，否则不动
-    'REALITY_PORT': os.environ.get('REALITY_PORT', '25876'),      # Reality 端口,支持多端口玩具可填写，否则不动
+    'REALITY_PORT': os.environ.get('REALITY_PORT', '25839'),      # Reality 端口,支持多端口玩具可填写，否则不动
     'ANYREALITY_PORT': os.environ.get('ANYREALITY_PORT', ''), # AnyReality 端口,支持多端口玩具可填写，否则不动
     'CHAT_ID': os.environ.get('CHAT_ID', '5296450021'),                 # TG chat_id，可在https://t.me/laowang_serv00_bot 获取
     'BOT_TOKEN': os.environ.get('BOT_TOKEN', '7655911538:AAEqQ-A9xzdEs2kqNGy0joIw3JplWvZLijk'),             # TG bot_token, 使用自己的bot需要填写,使用上方的bot不用填写,不会给别人发送
