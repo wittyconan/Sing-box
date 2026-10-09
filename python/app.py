@@ -30,7 +30,7 @@ config = {
     'CFPORT': os.environ.get('CFPORT', '443'),          # 优选域名或优选ip对应端口
     'NAME': os.environ.get('NAME', ''),                 # 节点备注
     'S5_PORT': os.environ.get('S5_PORT', ''),           # socks5端口,支持多端口玩具可填写，否则不动
-    'HY2_PORT': os.environ.get('HY2_PORT', '24608'),         # Hy2 端口，支持多端口玩具可填写，否则不动
+    'HY2_PORT': os.environ.get('HY2_PORT', ''),         # Hy2 端口，支持多端口玩具可填写，否则不动
     'TUIC_PORT': os.environ.get('TUIC_PORT', ''),        # Tuic 端口，支持多端口玩具可填写，否则不动 
     'ANYTLS_PORT': os.environ.get('ANYTLS_PORT', ''),    # AnyTLS 端口,支持多端口玩具可填写，否则不动
     'REALITY_PORT': os.environ.get('REALITY_PORT', '25150'),      # Reality 端口,支持多端口玩具可填写，否则不动
