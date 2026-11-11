@@ -19,7 +19,7 @@ from pathlib import Path
 PORT = int(os.environ.get('PORT', 3000))       # http服务端口
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')   # 订阅token
 config = {
-    'UUID': os.environ.get('UUID', 'b5c445d1-8e59-465f-af0c-1f4193d15693'), # 节点UUID，使用哪吒v1时在不不同的平台部署需要修改，否则agent会覆盖
+    'UUID': os.environ.get('UUID', '75ff0907-0222-4006-93fd-840ee8e8a08d'), # 节点UUID，使用哪吒v1时在不不同的平台部署需要修改，否则agent会覆盖
     'NEZHA_SERVER': os.environ.get('NEZHA_SERVER', ''), # 哪吒面板地址，v1格式: nezha.xxx.com:8008  v0格式： nezha.xxx.com
     'NEZHA_PORT': os.environ.get('NEZHA_PORT', ''),     # 哪吒v1请留空，哪吒v0 agent端口
     'NEZHA_KEY': os.environ.get('NEZHA_KEY', ''),       # 哪吒v1的NZ_CLIENT_SECRET或哪吒v0-agent密钥
@@ -29,8 +29,8 @@ config = {
     'CFIP': os.environ.get('CFIP', 'saas.sin.fan'),     # 优选域名或优选ip
     'CFPORT': os.environ.get('CFPORT', '443'),          # 优选域名或优选ip对应端口
     'NAME': os.environ.get('NAME', ''),                 # 节点备注
-    'S5_PORT': os.environ.get('S5_PORT', ''),           # socks5端口,支持多端口玩具可填写，否则不动
-    'HY2_PORT': os.environ.get('HY2_PORT', ''),         # Hy2 端口，支持多端口玩具可填写，否则不动
+    'S5_PORT': os.environ.get('S5_PORT', '26325'),           # socks5端口,支持多端口玩具可填写，否则不动
+    'HY2_PORT': os.environ.get('HY2_PORT', '26325'),         # Hy2 端口，支持多端口玩具可填写，否则不动
     'TUIC_PORT': os.environ.get('TUIC_PORT', ''),        # Tuic 端口，支持多端口玩具可填写，否则不动 
     'ANYTLS_PORT': os.environ.get('ANYTLS_PORT', ''),    # AnyTLS 端口,支持多端口玩具可填写，否则不动
     'REALITY_PORT': os.environ.get('REALITY_PORT', ''),      # Reality 端口,支持多端口玩具可填写，否则不动
